@@ -1,0 +1,114 @@
+body {
+  background-color: #fbfbfb;
+}
+
+.mensaje1{
+    background-color: #ffc09f;
+}
+
+.mensaje2{
+    background-color: #ffee93;
+}
+
+.mensaje3{
+    background-color: #fcf5c7;
+}
+
+.mensaje4{
+    background-color: #a0ced9;
+}
+
+.mensaje5{
+    background-color: #adf7b6;
+}
+
+.mensaje {
+  display: flex;
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 10px;
+
+  box-shadow: 1px 1px 21px -10px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 1px 21px -10px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 1px 21px -10px rgba(0, 0, 0, 0.75);
+}
+
+#autor {
+  margin-right: 5px;
+  font-weight: 900;
+  font-size: large;
+}
+
+#contenido {
+  font-weight: 300;
+  font-size: large;
+}
+
+.input-wrapper {
+  margin-top: 10px;
+  display: flex;
+}
+
+
+.input-wrapper input {
+  background-color: white;
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  width: 13em;
+  border-radius: 1rem;
+  color: lightcoral;
+  box-shadow: 0 0.4rem #dfd9d9;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+
+
+.input-wrapper input:focus {
+  outline-color: lightcoral;
+}
+
+.btn {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  cursor: pointer;
+  width: 150px;
+  height: 50px;
+  background-color: #eeeeed;
+  border-radius: 80px;
+  border: none;
+  padding: 0 80px;
+  transition: all 0.2s ease;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  margin-top: 4px;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+.btn span {
+  position: absolute;
+  z-index: 99;
+  width: 150px;
+  height: 50px;
+  border-radius: 80px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+  font-size: 17px;
+  text-align: center;
+  line-height: 50px;
+  letter-spacing: 2px;
+  color: #eeeeed;
+  background-color: #1f1f1f;
+  padding: 0 10px;
+  transition: all 1.2s ease;
+}
+
+.btn:hover span {
+  opacity: 0.8;
+}
